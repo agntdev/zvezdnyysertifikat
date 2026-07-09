@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Browse packages",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show available star packages"
+            }
+          }
+        ],
+        "send": {
+          "callback": "browse:start"
+        }
+      }
+    ]
+  }
+]
